@@ -173,6 +173,17 @@ img {
     display: block;
     max-width: 100%;
     height: auto}
+.img-responsive2 {
+    display: block;
+    max-width: 100%;
+    height: 50rem;
+    transition: transform 1s;
+	}
+.img-responsive2:hover {
+    transform: scale(1.1);
+
+	}
+}
 .img-rounded {
     border-radius: 2px}
 .img-thumbnail {
@@ -279,7 +290,7 @@ p {
     color: #777}
 .text-primary {
     color: #ff6360}
-a.text-primary:focus,a.text-primary:hover {
+a.text-primary:focus,a.text-primary: {
     color: #ff312d}
 .text-success {
     color: #fff}
@@ -1392,11 +1403,13 @@ a.btn.disabled,fieldset[disabled] a.btn {
 .btn-primary.active,.btn-primary:active,.btn-primary:hover,.open>.btn-primary.dropdown-toggle {
     color: #fff;
     background-color: #ff312d;
-    border-color: #ff2723}
+    border-color: #ff2723
+	;}
 .btn-primary.active.focus,.btn-primary.active:focus,.btn-primary.active:hover,.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover,.open>.btn-primary.dropdown-toggle.focus,.open>.btn-primary.dropdown-toggle:focus,.open>.btn-primary.dropdown-toggle:hover {
     color: #fff;
     background-color: #ff0e09;
-    border-color: #e00400}
+    border-color: #e00400;
+}
 .btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle {
     background-image: none}
 .btn-primary.disabled.focus,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled].focus,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover {
@@ -3016,3 +3029,25 @@ main {
 .list-icons li {
     float: left;
     margin-right: 5px}
+.boton {
+	margin-left: 10rem;
+	transition: transform 1s;
+	}
+	
+.boton:hover {
+	transform: scale(1.5)	
+}
+.descripcion {
+	border-bottom: 2px solid pink;
+	width: 500px;	
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+}
+.descripcion2 {
+	border-bottom: 2px solid pink;
+	width: 300px;	
+}
+
+.fondo {
+	background-image: url(./assets/images/background.png)    ;
+}
